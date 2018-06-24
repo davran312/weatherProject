@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Weather.KG</string>
+    <string name="tab1">Your Location</string>
+    <string name="tab2">Choose City</string>
+    <string name="tab3">Find</string>
+    <string name="msg_wait">Finding your current location...</string>
+    <string name="skip">Skip</string>
+    <string name="gps_disabled_text">Please turn on your geolocation </string>
+    <string name="gps_disabled_button">Turn on</string>
+    <string name="tv_temperature">Temperature: </string>
+    <string name="tv_pressure">Pressure: </string>
+    <string name="tv_humidity">Humidity: </string>
+    <string name="gps_disabled_text_skip">Turn on your geolocation </string>
+    <string name="toast_message">You in main menu</string>
+    <string name="current_location">Current Location</string>
+    <string name="country_location">Country</string>
+    <string name="country_was_not_found">Not Available</string>
+    <string name="hint">Write city name</string>
+    <string name="city_location">City</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:background="@color/blue"
+    tools:context=".activities.CurrentLocationSetterActivity">
+
+
+    <TextView
+        android:id="@+id/tv_current_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        tools:text="hood day"
+        android:textSize="25dp" />
+
+    <Button
+        android:background="@color/blue"
+        android:id="@+id/bt_current_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/tv_current_location"
+        android:text="@string/gps_disabled_button" />
+
+    <Button
+        android:background="@color/blue"
+
+        android:id="@+id/bt_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/skip" />
+</RelativeLayout>
