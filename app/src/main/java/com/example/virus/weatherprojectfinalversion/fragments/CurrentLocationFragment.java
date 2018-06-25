@@ -55,6 +55,7 @@ public class CurrentLocationFragment extends Fragment {
         else {
             frameLayout.setVisibility(View.GONE);
             adapter = new ListViewListenerAdapter(getActivity().getApplicationContext(),R.layout.gridview_days_weather,list);
+            adapter.notifyDataSetChanged();
             gridView.setAdapter(adapter);
             WeatherTemperature weatherTemperature = getActivity().getIntent().getParcelableExtra(EXTRA_TEMPERATURE);
             TextView tvCurrentPositionName = view.findViewById(R.id.tv_current_position_name);
